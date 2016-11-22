@@ -1,0 +1,6 @@
+user1=User.create ({ username: "sharky_j", avatar_url: "http://naserca.com/images/sharky_j.jpg"})
+user2=User.create ({ username: "kirk_whalum", avatar_url: "http://naserca.com/images.kirk_whalum.jpg"})
+user3=User.create ({ username: "marlin_peppa", avatar_url: "http://naserca.com/images/marlin_peppa.jpg"})
+Post.create ({ photo_url: "http://naserca.com/images/shark_jpg", user_id: user1.id })
+Post.create ({ photo_url: "http://naserca.com/images/whale.jpg", user_id: user2.id })
+Post.create ({ photo_url: "http://naserca.com/images.marlin.jpg", user_id: user3.id })
